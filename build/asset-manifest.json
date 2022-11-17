@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90f6ff32.chunk.css",
+    "main.js": "/static/js/main.b6e13377.chunk.js",
+    "main.js.map": "/static/js/main.b6e13377.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bb8219d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bb8219d1.js.map",
+    "static/css/2.83cfdeb8.chunk.css": "/static/css/2.83cfdeb8.chunk.css",
+    "static/js/2.f151441d.chunk.js": "/static/js/2.f151441d.chunk.js",
+    "static/js/2.f151441d.chunk.js.map": "/static/js/2.f151441d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.47d754741e2d83a44f5410bf93faeb7a.js": "/precache-manifest.47d754741e2d83a44f5410bf93faeb7a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.83cfdeb8.chunk.css.map": "/static/css/2.83cfdeb8.chunk.css.map",
+    "static/css/main.90f6ff32.chunk.css.map": "/static/css/main.90f6ff32.chunk.css.map",
+    "static/media/Gregg-Van-Orden-Resume.pdf": "/static/media/Gregg-Van-Orden-Resume.d845caed.pdf",
+    "static/media/index.css": "/static/media/Kano-regular.71752f74.eot",
+    "static/media/bio-photo.png": "/static/media/bio-photo.93ea0989.png",
+    "static/media/lehigh-1.png": "/static/media/lehigh-1.9ad8eafe.png",
+    "static/media/lehigh-2.png": "/static/media/lehigh-2.0ce01d20.png",
+    "static/media/lehigh-3.png": "/static/media/lehigh-3.c35f355e.png",
+    "static/media/lehigh-logo.png": "/static/media/lehigh-logo.1b11890d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb8219d1.js",
+    "static/css/2.83cfdeb8.chunk.css",
+    "static/js/2.f151441d.chunk.js",
+    "static/css/main.90f6ff32.chunk.css",
+    "static/js/main.b6e13377.chunk.js"
+  ]
+}
