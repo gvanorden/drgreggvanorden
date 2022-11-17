@@ -52,7 +52,7 @@ class Bio extends Component {
                         <td className="degree-title">
                           <b>YEARS</b>
                         </td>
-                        <td className="degree-text">2005-2009</td>
+                        <td className="degree-text">2006-2010</td>
                       </tr>
                     </tbody>
                   </Table>

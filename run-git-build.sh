@@ -2,6 +2,6 @@
  
 version="$1"
 
-git add build
+git add .
 git commit -m $version
 git push -u origin main
