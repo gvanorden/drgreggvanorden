@@ -23,7 +23,7 @@ class Contact extends Component {
             </ListGroup.Item>
             <ListGroup.Item>
               <img className="contact-image" src={email} alt="Email Icon" />
-              greggvanorden@gmail.com
+              gvanorden@gmail.com
             </ListGroup.Item>
             {/* <ListGroup.Item>
               <img className="contact-image" src={address} alt="Address Icon" />
