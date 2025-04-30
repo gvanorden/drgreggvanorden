@@ -8,7 +8,7 @@ class Resume extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { pageNumber: 1, scale: 1.75 };
+    this.state = { scale: 1.8 };
 
     this.setScale = this.setScale.bind(this);
   }
@@ -30,7 +30,7 @@ class Resume extends Component {
       this.setState({ scale: 1.25 });
     }
     else if (window.innerWidth <= 2000) {
-      this.setState({ scale: 1.75 });
+      this.setState({ scale: 1.8 });
     }
     else {
       this.setState({ scale: 2 });
@@ -47,6 +47,15 @@ class Resume extends Component {
     return (
       <div className="resume-container">
         <div className="resume">
+          {/* <div className="download-resume-button-container">
+            <a
+              href="/images/pdf/Gregg-Van-Orden-Resume.pdf"
+              download
+              className="download-resume-button"
+            >
+              Download Resume (PDF)
+            </a>
+          </div> */}
           <Document
             className="resume-document"
             file={pdf}
@@ -54,12 +63,17 @@ class Resume extends Component {
           >
             <Page
               className="resume-page"
-              pageNumber={this.state.pageNumber}
+              pageNumber={1}
+              scale={this.state.scale}
+            />
+            <Page
+              className="resume-page"
+              pageNumber={2}
               scale={this.state.scale}
             />
           </Document>
         </div>
-      </div>
+      </div >
     );
   }
 }

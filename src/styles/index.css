@@ -635,6 +635,39 @@ td {
   overflow-y: scroll;
 }
 
+.resume-page {
+  margin-bottom: 20px;
+  padding: 0;
+  display: block;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-resume-button-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.download-resume-button {
+  display: inline-block;
+  background-color: #1A0DAB;
+  /* The pop color you liked */
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-resume-button:hover {
+  background-color: #002060;
+  /* The deeper navy when hovering */
+  text-decoration: none;
+}
+
+
 canvas {
   margin: auto;
 }
