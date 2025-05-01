@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import ListGroup from "react-bootstrap/ListGroup";
 import logoIcon from "../images/logo-icon.png";
-import photo from "../images/bio-photo.png";
+//import photo from "../images/bio-photo.png";
 import phone from "../images/contact-icons/phone.png";
 import email from "../images/contact-icons/email.png";
-import address from "../images/contact-icons/address.png";
+//import address from "../images/contact-icons/address.png";
 
 class Contact extends Component {
   state = {};
