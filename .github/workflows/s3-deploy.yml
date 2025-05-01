@@ -28,10 +28,13 @@ jobs:
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --delete
-        env:
-          CI: false
-          AWS_S3_BUCKET: greggvanorden-website
-          AWS_REGION: us-east-2
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          SOURCE_DIR: build
+    env:
+      CI: false
+      AWS_S3_BUCKET: greggvanorden-website
+      AWS_REGION: us-east-2
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      SOURCE_DIR: build
+
+
+          
