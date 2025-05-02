@@ -3,13 +3,12 @@ import pdf from "../images/pdf/Gregg-Van-Orden-Resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 class Resume extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { scale: 1.8 };
+    this.state = { scale: 1.775 };
 
     this.setScale = this.setScale.bind(this);
   }
